@@ -55,73 +55,73 @@
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
+                            "id": "org.scala-lang:scala-library:2.11.1",
                             "name": "Minecraft Forge (scala-library)",
                             "type": "Library",
                             "artifact": {
-                                "size": 1474672,
-                                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-library-2.11.1.jar.pack.xz"
+                                "size": 5612286,
+                                "MD5": "6F9208AF82F7C2811A6C0DE049CFE279",
+                                "url": "https://www.dropbox.com/s/se7zcj1ov2kjs3v/scala-library-2.11.1.jar?dl=1"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
+                            "id": "org.scala-lang:scala-compiler:2.11.1",
                             "name": "Minecraft Forge (scala-compiler)",
                             "type": "Library",
                             "artifact": {
-                                "size": 3076920,
-                                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-compiler-2.11.1.jar.pack.xz"
+                                "size": 13576400,
+                                "MD5": "D9FC987043FCF8C25D0F73BC7CA36A47",
+                                "url": "https://www.dropbox.com/s/dfc8mycd19tn4x9/scala-compiler-2.11.1.jar?dl=1"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
+                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
                             "name": "Minecraft Forge (scala-actors-migration)",
                             "type": "Library",
                             "artifact": {
-                                "size": 21324,
-                                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
+                                "size": 58767,
+                                "MD5": "7F7B169667D14B3092A285BADF9487F7",
+                                "url": "https://www.dropbox.com/s/0o4xdy9u0z9bggt/scala-actors-migration_2.11-1.1.0.jar?dl=1"
                             }
                         },
                         {
-                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
+                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
                             "name": "Minecraft Forge (scala-continuations-library)",
                             "type": "Library",
                             "artifact": {
-                                "size": 7956,
-                                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
+                                "size": 26551,
+                                "MD5": "F2A6B8FB8451839EFB670D03DFD79EBD",
+                                "url": "https://www.dropbox.com/s/eeqxyn75qxonupj/scala-continuations-library_2.11-1.0.2.jar?dl=1"
                             }
                         },
                         {
-                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
+                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
                             "name": "Minecraft Forge (scala-continuations-plugin)",
                             "type": "Library",
                             "artifact": {
-                                "size": 46140,
-                                "MD5": "a8232db22a72a981de6b1399eb86dff7",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
+                                "size": 209882,
+                                "MD5": "40E725B6F9DA3A52E6ADFFD94ABB8290",
+                                "url": "https://www.dropbox.com/s/fvkrukvljkrqo68/scala-continuations-plugin_2.11.1-1.0.2.jar?dl=1"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
+                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
                             "name": "Minecraft Forge (scala-parser-combinators)",
                             "type": "Library",
                             "artifact": {
-                                "size": 85568,
-                                "MD5": "2e50a7df17680daadacca69f07f8a16d",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
+                                "size": 430247,
+                                "MD5": "FE20384E064DD025E144BEE2858ABF1A",
+                                "url": "https://www.dropbox.com/s/xh0z1cmtiy36cvm/scala-parser-combinators_2.11-1.0.1.jar?dl=1"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
+                            "id": "org.scala-lang:scala-reflect:2.11.1",
                             "name": "Minecraft Forge (scala-reflect)",
                             "type": "Library",
                             "artifact": {
-                                "size": 1070312,
-                                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-reflect-2.11.1.jar.pack.xz"
+                                "size": 4415437,
+                                "MD5": "08B829B97A4258421B7E5C902B8A08AC",
+                                "url": "https://www.dropbox.com/s/1puitm7zwy7cqs7/scala-reflect-2.11.1.jar?dl=1"
                             }
                         },
                         {
@@ -129,19 +129,19 @@
                             "name": "Minecraft Forge (scala-swing)",
                             "type": "Library",
                             "artifact": {
-                                "size": 736795,
-                                "MD5": "1d360289e697022a3f57abaad344b28f",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-swing_2.11-1.0.1.jar"
+                                "size": 736831,
+                                "MD5": "5D8C98094F1AE58184ED2E087FCA7C44",
+                                "url": "https://www.dropbox.com/s/farc9bya9vrhlh8/scala-swing_2.11-1.0.1.jar?dl=1"
                             }
                         },
                         {
-                            "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
+                            "id": "org.scala-lang:scala-xml_2.11:1.0.2",
                             "name": "Minecraft Forge (scala-xml)",
                             "type": "Library",
                             "artifact": {
-                                "size": 217812,
-                                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-xml_2.11-1.0.2.jar.pack.xz"
+                                "size": 660552,
+                                "MD5": "A54CA733EF0EDE9C343F1CE9ED0B527C",
+                                "url": "https://www.dropbox.com/s/9h24xfdry8vlklk/scala-xml_2.11-1.0.2.jar?dl=1"
                             }
                         },
                         {
