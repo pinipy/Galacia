@@ -1,8 +1,8 @@
 {
     "version": "1.0.0",
     "discord": {
-        "clientId": "385581240906022916",
-        "smallImageText": "WesterosCraft",
+        "clientId": "657499577913704448",
+        "smallImageText": "Galacia",
         "smallImageKey": "seal-circle"
     },
     "java": {
@@ -20,23 +20,205 @@
             "minecraftVersion": "1.12.2",
             "discord": {
                 "shortId": "Production",
-                "largeImageText": "WesterosCraft Production Server",
-                "largeImageKey": "server-prod"
+                "largeImageText": "Galacia Client",
+                "largeImageKey": "seal-circle"
             },
             "mainServer": true,
             "autoconnect": true,
             "modules": [
                 {
-                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2476",
-                    "name": "Minecraft Forge",
-                    "type": "ForgeHosted",
-                    "artifact": {
-                        "size": 4455536,
-                        "MD5": "7cef816cc01d53a04a180f0214d2982a",
-                        "url": "https://www.dropbox.com/s/2upnjf67ykjsfvm/forge-1.12.2-14.23.5.2838-universal.jar?dl=1"
+                    "id":"rcraft.files:00000001:2019-12-20",
+                       "name":"forge-1",
+                       "type":"file",
+                       "artifact":{
+                               "size":"5035170",
+                               "path":"forge-1.12.2-14.23.5.2838-universal.jar",
+                               "url":"https://www.dropbox.com/s/2upnjf67ykjsfvm/forge-1.12.2-14.23.5.2838-universal.jar?dl=1"
                     },
-                    "subModules":[
-               {
+                    "subModules": [
+                        {
+                            "id": "net.minecraft:launchwrapper:1.12",
+                            "name": "Mojang (LaunchWrapper)",
+                            "type": "Library",
+                            "artifact": {
+                                "size":32999,
+								"url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/launchwrapper-1.12.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-all:5.2",
+                            "name": "Mojang (ASM)",
+                            "type": "Library",
+                            "artifact": {
+                                "size":247787,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/asm-all-5.2.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-library:2.11.1",
+                            "name": "Minecraft Forge (scala-library)",
+                            "type": "Library",
+                            "artifact": {
+                                "size":5489989,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/scala-library-2.11.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-compiler:2.11.1",
+                            "name": "Minecraft Forge (scala-compiler)",
+                            "type": "Library",
+                            "artifact": {
+                                "size":13298496,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/scala-compiler-2.11.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
+                            "name": "Minecraft Forge (scala-actors-migration)",
+                            "type": "Library",
+                            "artifact": {
+                                "size":57370,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/scala-actors-migration_2.11-1.1.0.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
+                            "name": "Minecraft Forge (scala-continuations-library)",
+                            "type": "Library",
+                            "artifact": {
+                                "size":25550,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/scala-continuations-library_2.11-1.0.2.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
+                            "name": "Minecraft Forge (scala-continuations-plugin)",
+                            "type": "Library",
+                            "artifact": {
+                                "size":205229,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/scala-continuations-plugin_2.11.1-1.0.2.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
+                            "name": "Minecraft Forge (scala-parser-combinators)",
+                            "type": "Library",
+                            "artifact": {
+                                "size":418586,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/scala-parser-combinators_2.11-1.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-reflect:2.11.1",
+                            "name": "Minecraft Forge (scala-reflect)",
+                            "type": "Library",
+                            "artifact": {
+                                "size":4321740,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/scala-reflect-2.11.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-swing_2.11:1.0.1",
+                            "name": "Minecraft Forge (scala-swing)",
+                            "type": "Library",
+                            "artifact": {
+                                "size":721105,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/scala-swing_2.11-1.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-xml_2.11:1.0.2",
+                            "name": "Minecraft Forge (scala-xml)",
+                            "type": "Library",
+                            "artifact": {
+                                "size":646486,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/scala-xml_2.11-1.0.2.jar"
+                            }
+                        },
+                        {
+                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3",
+                            "name": "Minecraft Forge (akka-actor)",
+                            "type": "Library",
+                            "artifact": {
+                                "size":2499473,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/akka-actor_2.11-2.3.3.jar"
+                            }
+                        },
+                        {
+                            "id": "com.typesafe:config:1.2.1",
+                            "name": "Minecraft Forge (typesafe-config)",
+                            "type": "Library",
+                            "artifact": {
+                                "size":216464,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/config-1.2.1.jar"
+                            }
+                        },
+                        {
+                            "id": "lzma:lzma:0.0.1",
+                            "name": "Mojang (LZMA)",
+                            "type": "Library",
+                            "artifact": {
+                                "size":5762,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/lzma-0.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.trove4j:trove4j:3.0.3",
+                            "name": "Trove4J",
+                            "type": "Library",
+                            "artifact": {
+                                "size":2523218,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/trove4j-3.0.3.jar"
+                            }
+                        },
+                        {
+                            "id": "java3d:vecmath:1.5.2",
+                            "name": "Vecmath",
+                            "type": "Library",
+                            "artifact": {
+                                "size":318956,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/vecmath-1.5.2.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.jopt-simple:jopt-simple:5.0.3",
+                            "name": "Jopt-simple",
+                            "type": "Library",
+                            "artifact": {
+                                "size":78175,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/jopt-simple-5.0.3.jar"
+                            }
+                        },
+						{
+                            "id": "net.java.dev.jna:jna:4.4.0",
+                            "name": "jna-4.4.0",
+                            "type": "Library",
+                            "artifact": {
+                                "size":1091208,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/jna-4.4.0.jar"
+                            }
+                        },
+						{
+                            "id": "org.apache.maven:maven-artifact:3.5.3",
+                            "name": "maven-artifact-3",
+                            "type": "Library",
+                            "artifact": {
+								"size":54961,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/maven-artifact-3.5.3.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:MercuriusUpdater:1.12.2",
+                            "name": "MercuriusUpdater",
+                            "type": "Library",
+                            "artifact": {
+                                "size":15107,
+                               "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/MercuriusUpdater-1.12.2-1.0.0.14.jar"
+                            }
+                        }
+                    ]
+                },
+                {
                        "id":"rcraft.files:00000001:2019-12-20",
                        "name":"manifest",
                        "type":"file",
@@ -3323,7 +3505,9 @@
                        "artifact":{
                                "size":"74382",
                                "path":"config/enderio/recipes/examples/recipes.xsd",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/enderio/recipes/examples/recipes.xsd"
+
+
+"url":"https://www.dropbox.com/s/ksysohgg4ka5eiw/recipes.xsd?dl=1"
                        }
                },
                {
@@ -3333,7 +3517,7 @@
                        "artifact":{
                                "size":"3396",
                                "path":"config/enderio/recipes/examples/sagmill_dupe_recipe_patches.xml",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/enderio/recipes/examples/sagmill_dupe_recipe_patches.xml"
+                               "url":"https://www.dropbox.com/s/0fc80bzcagbg090/sagmill_dupe_recipe_patches.xml?dl=1"
                        }
                },
                {
@@ -3343,7 +3527,9 @@
                        "artifact":{
                                "size":"930",
                                "path":"config/enderio/recipes/examples/strict_iron.xml",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/enderio/recipes/examples/strict_iron.xml"
+
+
+"url":"https://www.dropbox.com/s/2ppftaf211uaw25/strict_iron.xml?dl=1"
                        }
                },
                {
@@ -3353,7 +3539,9 @@
                        "artifact":{
                                "size":"5834",
                                "path":"config/enderio/recipes/examples/unhide_base.xml",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/enderio/recipes/examples/unhide_base.xml"
+
+
+"url":"https://www.dropbox.com/s/f9cjkrrot3tmlft/unhide_base.xml?dl=1"
                        }
                },
                {
@@ -3363,7 +3551,9 @@
                        "artifact":{
                                "size":"74382",
                                "path":"config/enderio/recipes/user/recipes.xsd",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/enderio/recipes/user/recipes.xsd"
+
+
+"url":"https://www.dropbox.com/s/vt9gw5fmdt9djm8/recipes.xsd?dl=1"
                        }
                },
                {
@@ -3373,7 +3563,9 @@
                        "artifact":{
                                "size":"235",
                                "path":"config/enderio/recipes/user/user_recipes.xml",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/enderio/recipes/user/user_recipes.xml"
+
+
+"url":"https://www.dropbox.com/s/1w0mtat6y1e2s57/user_recipes.xml?dl=1"
                        }
                },
                {
@@ -3383,7 +3575,9 @@
                        "artifact":{
                                "size":"14169",
                                "path":"config/environmentaltech/main.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/main.cfg"
+
+
+"url":"https://www.dropbox.com/s/v5y23ml7uywwm4i/main.cfg?dl=1"
                        }
                },
                {
@@ -3393,7 +3587,9 @@
                        "artifact":{
                                "size":"4437",
                                "path":"config/environmentaltech/multiblocks/void_miner/botanic/tier_1.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/botanic/tier_1.json"
+
+
+"url":"https://www.dropbox.com/s/l40jgtpsyq8oyl4/tier_1.json?dl=1"
                        }
                },
                {
@@ -3403,7 +3599,9 @@
                        "artifact":{
                                "size":"4437",
                                "path":"config/environmentaltech/multiblocks/void_miner/botanic/tier_2.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/botanic/tier_2.json"
+
+
+"url":"https://www.dropbox.com/s/z70z2uuw0px00ux/tier_2.json?dl=1"
                        }
                },
                {
@@ -3413,7 +3611,9 @@
                        "artifact":{
                                "size":"4437",
                                "path":"config/environmentaltech/multiblocks/void_miner/botanic/tier_3.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/botanic/tier_3.json"
+
+
+"url":"https://www.dropbox.com/s/pe0l1k238u44ixq/tier_3.json?dl=1"
                        }
                },
                {
@@ -3423,7 +3623,9 @@
                        "artifact":{
                                "size":"4437",
                                "path":"config/environmentaltech/multiblocks/void_miner/botanic/tier_4.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/botanic/tier_4.json"
+
+
+"url":"https://www.dropbox.com/s/c8txg2vadmsw1fl/tier_4.json?dl=1"
                        }
                },
                {
@@ -3433,7 +3635,9 @@
                        "artifact":{
                                "size":"4437",
                                "path":"config/environmentaltech/multiblocks/void_miner/botanic/tier_5.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/botanic/tier_5.json"
+
+
+"url":"https://www.dropbox.com/s/sz0vncfd3fpigik/tier_5.json?dl=1"
                        }
                },
                {
@@ -3443,7 +3647,9 @@
                        "artifact":{
                                "size":"4437",
                                "path":"config/environmentaltech/multiblocks/void_miner/botanic/tier_6.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/botanic/tier_6.json"
+
+
+"url":"https://www.dropbox.com/s/v1vu6ctd2g0925t/tier_6.json?dl=1"
                        }
                },
                {
@@ -3453,7 +3659,9 @@
                        "artifact":{
                                "size":"8967",
                                "path":"config/environmentaltech/multiblocks/void_miner/ore/tier_1.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/ore/tier_1.json"
+
+
+"url":"https://www.dropbox.com/s/e702bf3ccihw5td/tier_1.json?dl=1"
                        }
                },
                {
@@ -3463,7 +3671,9 @@
                        "artifact":{
                                "size":"9077",
                                "path":"config/environmentaltech/multiblocks/void_miner/ore/tier_2.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/ore/tier_2.json"
+
+
+"url":"https://www.dropbox.com/s/rmsvbt6qs06vu1l/tier_2.json?dl=1"
                        }
                },
                {
@@ -3473,7 +3683,9 @@
                        "artifact":{
                                "size":"9186",
                                "path":"config/environmentaltech/multiblocks/void_miner/ore/tier_3.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/ore/tier_3.json"
+
+
+"url":"https://www.dropbox.com/s/3wuv87gpd6jj60y/tier_3.json?dl=1"
                        }
                },
                {
@@ -3483,7 +3695,9 @@
                        "artifact":{
                                "size":"9293",
                                "path":"config/environmentaltech/multiblocks/void_miner/ore/tier_4.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/ore/tier_4.json"
+
+
+"url":"https://www.dropbox.com/s/phpiifvi0o8ug39/tier_4.json?dl=1"
                        }
                },
                {
@@ -3493,7 +3707,9 @@
                        "artifact":{
                                "size":"9401",
                                "path":"config/environmentaltech/multiblocks/void_miner/ore/tier_5.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/ore/tier_5.json"
+
+
+"url":"https://www.dropbox.com/s/0lze5n4mjosoo49/tier_5.json?dl=1"
                        }
                },
                {
@@ -3503,7 +3719,9 @@
                        "artifact":{
                                "size":"9401",
                                "path":"config/environmentaltech/multiblocks/void_miner/ore/tier_6.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/ore/tier_6.json"
+
+
+"url":"https://www.dropbox.com/s/caqdquens9vw9fh/tier_6.json?dl=1"
                        }
                },
                {
@@ -3513,7 +3731,9 @@
                        "artifact":{
                                "size":"7972",
                                "path":"config/environmentaltech/multiblocks/void_miner/resource/tier_1.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/resource/tier_1.json"
+
+
+"url":"https://www.dropbox.com/s/imaq9xdn3icnfl2/tier_1.json?dl=1"
                        }
                },
                {
@@ -3523,7 +3743,9 @@
                        "artifact":{
                                "size":"7972",
                                "path":"config/environmentaltech/multiblocks/void_miner/resource/tier_2.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/resource/tier_2.json"
+
+
+"url":"https://www.dropbox.com/s/2yzabxzlqiftsfj/tier_2.json?dl=1"
                        }
                },
                {
@@ -3533,7 +3755,9 @@
                        "artifact":{
                                "size":"7972",
                                "path":"config/environmentaltech/multiblocks/void_miner/resource/tier_3.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/resource/tier_3.json"
+
+
+"url":"https://www.dropbox.com/s/ybezhyqurjhug9r/tier_3.json?dl=1"
                        }
                },
                {
@@ -3543,7 +3767,9 @@
                        "artifact":{
                                "size":"7972",
                                "path":"config/environmentaltech/multiblocks/void_miner/resource/tier_4.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/resource/tier_4.json"
+
+
+"url":"https://www.dropbox.com/s/4r8a70mcobulpgj/tier_4.json?dl=1"
                        }
                },
                {
@@ -3553,7 +3779,9 @@
                        "artifact":{
                                "size":"7972",
                                "path":"config/environmentaltech/multiblocks/void_miner/resource/tier_5.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/resource/tier_5.json"
+
+
+"url":"https://www.dropbox.com/s/7b15zptefo3i5ad/tier_5.json?dl=1"
                        }
                },
                {
@@ -3563,7 +3791,9 @@
                        "artifact":{
                                "size":"7972",
                                "path":"config/environmentaltech/multiblocks/void_miner/resource/tier_6.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/environmentaltech/multiblocks/void_miner/resource/tier_6.json"
+
+
+"url":"https://www.dropbox.com/s/h782vmk7xgoebg9/tier_6.json?dl=1"
                        }
                },
                {
@@ -3573,7 +3803,9 @@
                        "artifact":{
                                "size":"1341",
                                "path":"config/forestry/apiculture.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/apiculture.cfg"
+
+
+"url":"https://www.dropbox.com/s/rhiee4kqwnu2xxo/apiculture.cfg?dl=1"
                        }
                },
                {
@@ -3583,7 +3815,9 @@
                        "artifact":{
                                "size":"49838",
                                "path":"config/forestry/arboriculture.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/arboriculture.cfg"
+
+
+"url":"https://www.dropbox.com/s/vlgc9vy8d17qy30/arboriculture.cfg?dl=1"
                        }
                },
                {
@@ -3593,7 +3827,9 @@
                        "artifact":{
                                "size":"8445",
                                "path":"config/forestry/backpacks.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/backpacks.cfg"
+
+
+"url":"https://www.dropbox.com/s/69rry5fjivye23o/backpacks.cfg?dl=1"
                        }
                },
                {
@@ -3603,7 +3839,9 @@
                        "artifact":{
                                "size":"364",
                                "path":"config/forestry/binnie-mods.conf",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/binnie-mods.conf"
+
+
+"url":"https://www.dropbox.com/s/9txyi7h2qhhyv76/binnie-mods.conf?dl=1"
                        }
                },
                {
@@ -3613,7 +3851,9 @@
                        "artifact":{
                                "size":"9203",
                                "path":"config/forestry/common.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/common.cfg"
+
+
+"url":"https://www.dropbox.com/s/umqmxprxwzfwzjn/common.cfg?dl=1"
                        }
                },
                {
@@ -3623,7 +3863,9 @@
                        "artifact":{
                                "size":"791",
                                "path":"config/forestry/crates.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/crates.cfg"
+
+
+"url":"https://www.dropbox.com/s/iltxvzup4c4uo2g/crates.cfg?dl=1"
                        }
                },
                {
@@ -3633,7 +3875,9 @@
                        "artifact":{
                                "size":"425",
                                "path":"config/forestry/farm.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/farm.cfg"
+
+
+"url":"https://www.dropbox.com/s/svnlqlp9gbwcneb/farm.cfg?dl=1"
                        }
                },
                {
@@ -3643,7 +3887,9 @@
                        "artifact":{
                                "size":"1476",
                                "path":"config/forestry/fluids.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/fluids.cfg"
+
+
+"url":"https://www.dropbox.com/s/tspctmip7ybl6fm/fluids.cfg?dl=1"
                        }
                },
                {
@@ -3653,7 +3899,9 @@
                        "artifact":{
                                "size":"4615",
                                "path":"config/forestry/lepidopterology.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/lepidopterology.cfg"
+
+
+"url":"https://www.dropbox.com/s/e0touqub6z03r07/lepidopterology.cfg?dl=1"
                        }
                },
                {
@@ -3663,7 +3911,9 @@
                        "artifact":{
                                "size":"5163",
                                "path":"config/forestry/modules.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/modules.cfg"
+
+
+"url":"https://www.dropbox.com/s/3styt4mvrhf5ndd/modules.cfg?dl=1"
                        }
                },
                {
@@ -3673,7 +3923,9 @@
                        "artifact":{
                                "size":"24",
                                "path":"config/forestry/binniecore/main.conf",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/binniecore/main.conf"
+
+
+"url":"https://www.dropbox.com/s/6yrct3p43842hbm/main.conf?dl=1"
                        }
                },
                {
@@ -3683,7 +3935,9 @@
                        "artifact":{
                                "size":"1317",
                                "path":"config/forestry/botany/modules.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/botany/modules.cfg"
+
+
+"url":"https://www.dropbox.com/s/hwpnx4h1xjlq0vp/modules.cfg?dl=1"
                        }
                },
                {
@@ -3693,7 +3947,9 @@
                        "artifact":{
                                "size":"1011",
                                "path":"config/forestry/extrabees/main.conf",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/extrabees/main.conf"
+
+
+"url":"https://www.dropbox.com/s/ve5f1r4olwfki4d/main.conf?dl=1"
                        }
                },
                {
@@ -3703,7 +3959,9 @@
                        "artifact":{
                                "size":"827",
                                "path":"config/forestry/extrabees/modules.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/extrabees/modules.cfg"
+
+
+"url":"https://www.dropbox.com/s/dc6cwdblyowe8ps/modules.cfg?dl=1"
                        }
                },
                {
@@ -3713,7 +3971,9 @@
                        "artifact":{
                                "size":"270",
                                "path":"config/forestry/extratrees/main.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/extratrees/main.cfg"
+
+
+"url":"https://www.dropbox.com/s/32lengdgzbh5ws8/main.cfg?dl=1"
                        }
                },
                {
@@ -3723,7 +3983,9 @@
                        "artifact":{
                                "size":"1550",
                                "path":"config/forestry/extratrees/modules.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/extratrees/modules.cfg"
+
+
+"url":"https://www.dropbox.com/s/by437umuxevgun0/modules.cfg?dl=1"
                        }
                },
                {
@@ -3733,7 +3995,9 @@
                        "artifact":{
                                "size":"4856",
                                "path":"config/forestry/gamemodes/EASY.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/gamemodes/EASY.cfg"
+
+
+"url":"https://www.dropbox.com/s/k07aa454mi1jl6p/EASY.cfg?dl=1"
                        }
                },
                {
@@ -3753,7 +4017,9 @@
                        "artifact":{
                                "size":"4859",
                                "path":"config/forestry/gamemodes/NORMAL.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/gamemodes/NORMAL.cfg"
+
+
+"url":"https://www.dropbox.com/s/l78jhziiammb76o/NORMAL.cfg?dl=1"
                        }
                },
                {
@@ -3763,7 +4029,9 @@
                        "artifact":{
                                "size":"4854",
                                "path":"config/forestry/gamemodes/OP.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/gamemodes/OP.cfg"
+
+
+"url":"https://www.dropbox.com/s/pjz8pz25h37v3o5/OP.cfg?dl=1"
                        }
                },
                {
@@ -3773,7 +4041,9 @@
                        "artifact":{
                                "size":"2121",
                                "path":"config/forestry/genetics/main.conf",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/genetics/main.conf"
+
+
+"url":"https://www.dropbox.com/s/da6rfdi0g9f0o79/main.conf?dl=1"
                        }
                },
                {
@@ -3783,7 +4053,9 @@
                        "artifact":{
                                "size":"705",
                                "path":"config/forestry/genetics/modules.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/forestry/genetics/modules.cfg"
+
+
+"url":"https://www.dropbox.com/s/zp64sno3w542gq1/modules.cfg?dl=1"
                        }
                },
                {
@@ -3793,7 +4065,9 @@
                        "artifact":{
                                "size":"6555",
                                "path":"config/future-mc/future-mc.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/future-mc/future-mc.cfg"
+
+
+"url":"https://www.dropbox.com/s/7lzu5j00x140714/future-mc.cfg?dl=1"
                        }
                },
                {
@@ -3803,7 +4077,9 @@
                        "artifact":{
                                "size":"599",
                                "path":"config/gendustry/client.config",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/gendustry/client.config"
+
+
+"url":"https://www.dropbox.com/s/f5xae87zfgdh8zc/client.config?dl=1"
                        }
                },
                {
@@ -3813,7 +4089,9 @@
                        "artifact":{
                                "size":"202",
                                "path":"config/gendustry/readme.txt",
-                               "url":"https://www.dropbox.com/s/y16sh3yce6ic2vt/readme.txt?dl=1"
+
+
+"url":"https://www.dropbox.com/s/y16sh3yce6ic2vt/readme.txt?dl=1"
                        }
                },
                {
