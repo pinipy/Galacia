@@ -41,7 +41,7 @@
                        "artifact":{
                                "size":"14970",
                                "path":"manifest.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/manifest.json"
+                               "url":"https://dl.dropboxusercontent.com/s/0nnkqxrvm8xttqp/manifest.json?dl=1"
                        }
                },
                {
@@ -51,7 +51,7 @@
                        "artifact":{
                                "size":"51581",
                                "path":"minecraftinstance.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/minecraftinstance.json"
+                               "url":"http://dl.dropbox.com/s/daysh540ubfeb2b/minecraftinstance.json?dl=1"
                        }
                },
                {
@@ -61,7 +61,7 @@
                        "artifact":{
                                "size":"16103",
                                "path":"modlist.html",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/modlist.html"
+                               "url":"https://www.dropbox.com/s/k9z2jsy2jy38b2g/modlist.html?dl=1"
                        }
                },
                {
@@ -71,27 +71,7 @@
                        "artifact":{
                                "size":"323",
                                "path":"modpack.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/modpack.json"
-                       }
-               },
-               {
-                       "id":"rcraft.files:00000005:2019-12-20",
-                       "name":"RCRAFT_JSON",
-                       "type":"file",
-                       "artifact":{
-                               "size":"24576",
-                               "path":"RCRAFT_JSON.exe",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/RCRAFT_JSON.exe"
-                       }
-               },
-               {
-                       "id":"rcraft.files:00000006:2019-12-20",
-                       "name":"Settings",
-                       "type":"file",
-                       "artifact":{
-                               "size":"229",
-                               "path":"Settings.ini",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/Settings.ini"
+                               "url":"https://www.dropbox.com/s/daysh540ubfeb2b/minecraftinstance.json?dl=1"
                        }
                },
                {
@@ -101,7 +81,7 @@
                        "artifact":{
                                "size":"700",
                                "path":"config/Additional Structures - General.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/Additional Structures - General.cfg"
+                               "url":"https://www.dropbox.com/s/6p6o5sfdvangolg/Additional%20Structures%20-%20General.cfg?dl=1"
                        }
                },
                {
@@ -111,7 +91,7 @@
                        "artifact":{
                                "size":"4397",
                                "path":"config/Additional Structures - Structures.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/Additional Structures - Structures.cfg"
+                               "url":"https://www.dropbox.com/s/x8r9n94wrz1ase4/Additional%20Structures%20-%20Structures.cfg?dl=1"
                        }
                },
                {
@@ -121,7 +101,7 @@
                        "artifact":{
                                "size":"1533",
                                "path":"config/aether_legacy.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/aether_legacy.cfg"
+                               "url":"https://www.dropbox.com/s/tlifcg3cdtj76mw/aether_legacy.cfg?dl=1"
                        }
                },
                {
@@ -131,7 +111,7 @@
                        "artifact":{
                                "size":"1135",
                                "path":"config/akashictome.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/akashictome.cfg"
+                               "url":"https://www.dropbox.com/s/emkrttm8yj18zbc/akashictome.cfg?dl=1"
                        }
                },
                {
@@ -141,7 +121,7 @@
                        "artifact":{
                                "size":"1333",
                                "path":"config/appleskin.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/appleskin.cfg"
+                               "url":"https://www.dropbox.com/s/6us37kcy5zpszpk/appleskin.cfg?dl=1"
                        }
                },
                {
@@ -151,7 +131,7 @@
                        "artifact":{
                                "size":"2755",
                                "path":"config/attributefix.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/attributefix.cfg"
+                               "url":"https://www.dropbox.com/s/nxf19wnl47ujg97/attributefix.cfg?dl=1"
                        }
                },
                {
@@ -161,7 +141,7 @@
                        "artifact":{
                                "size":"162",
                                "path":"config/baubles.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/baubles.cfg"
+                               "url":"https://www.dropbox.com/s/p1vhdtybslsip17/baubles.cfg?dl=1"
                        }
                },
                {
@@ -171,7 +151,7 @@
                        "artifact":{
                                "size":"177",
                                "path":"config/betterfps.json",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/betterfps.json"
+                               "url":"https://www.dropbox.com/s/8kvlh5y3j23t4wc/betterfps.json?dl=1"
                        }
                },
                {
@@ -181,7 +161,7 @@
                        "artifact":{
                                "size":"5418",
                                "path":"config/bibliocraft.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/bibliocraft.cfg"
+                               "url":"https://www.dropbox.com/s/qbtm1v45a1he0kf/bibliocraft.cfg?dl=1"
                        }
                },
                {
@@ -191,7 +171,7 @@
                        "artifact":{
                                "size":"320",
                                "path":"config/blockcraftery.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/blockcraftery.cfg"
+                               "url":"https://www.dropbox.com/s/9vevq8zb7v1kjt4/blockcraftery.cfg?dl=1"
                        }
                },
                {
@@ -201,7 +181,7 @@
                        "artifact":{
                                "size":"8769",
                                "path":"config/botania.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/botania.cfg"
+                               "url":"https://www.dropbox.com/s/p48ycr8vfhzibdj/botania.cfg?dl=1"
                        }
                },
                {
@@ -211,7 +191,7 @@
                        "artifact":{
                                "size":"7631",
                                "path":"config/cfm.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/cfm.cfg"
+                               "url":"https://www.dropbox.com/s/wi2w6h9znuhwri8/cfm.cfg?dl=1"
                        }
                },
                {
@@ -221,7 +201,7 @@
                        "artifact":{
                                "size":"287",
                                "path":"config/chatcontrol-channels.txt",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/chatcontrol-channels.txt"
+                               "url":"https://www.dropbox.com/s/2m3kq4dvfjmaale/chatcontrol-channels.txt?dl=1"
                        }
                },
                {
@@ -231,7 +211,7 @@
                        "artifact":{
                                "size":"166",
                                "path":"config/chatcontrol.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/chatcontrol.cfg"
+                               "url":"https://www.dropbox.com/s/qulw6h4blwqkks4/chatcontrol.cfg?dl=1"
                        }
                },
                {
@@ -241,7 +221,7 @@
                        "artifact":{
                                "size":"1881",
                                "path":"config/chatping.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/chatping.cfg"
+                               "url":"https://www.dropbox.com/s/1mjpppk4vvwyzuy/chatping.cfg?dl=1"
                        }
                },
                {
@@ -251,7 +231,7 @@
                        "artifact":{
                                "size":"3210",
                                "path":"config/chattweaks.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/chattweaks.cfg"
+                               "url":"https://www.dropbox.com/s/2xvxexctav9doj3/chattweaks.cfg?dl=1"
                        }
                },
                {
@@ -261,7 +241,7 @@
                        "artifact":{
                                "size":"1147",
                                "path":"config/ChickenChunks.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/ChickenChunks.cfg"
+                               "url":"https://www.dropbox.com/s/09tswcxveasgch8/ChickenChunks.cfg?dl=1"
                        }
                },
                {
@@ -271,7 +251,7 @@
                        "artifact":{
                                "size":"4835",
                                "path":"config/chisel.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/chisel.cfg"
+                               "url":"https://www.dropbox.com/s/37hh1l597jz9iyt/chisel.cfg?dl=1"
                        }
                },
                {
@@ -281,7 +261,7 @@
                        "artifact":{
                                "size":"20923",
                                "path":"config/chiselsandbits.cfg",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/config/chiselsandbits.cfg"
+                               "url":"https://www.dropbox.com/s/mpvn02i6ep5yl2u/chiselsandbits_clipboard.cfg?dl=1"
                        }
                },
                {
@@ -5551,7 +5531,7 @@
                        "artifact":{
                                "size":"74722",
                                "path":"mods/memory_repo/info/loenwind/autoconfig/AutoConfig/1.12.2-1.0.2/AutoConfig-1.12.2-1.0.2.jar",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/mods/memory_repo/info/loenwind/autoconfig/AutoConfig/1.12.2-1.0.2/AutoConfig-1.12.2-1.0.2.jar"
+                               "url":"https://www.dropbox.com/s/4jxoqpe3gfua84k/AutoConfig-1.12.2-1.0.2.jar?dl=1"
                        }
                },
                {
@@ -5561,7 +5541,7 @@
                        "artifact":{
                                "size":"6735",
                                "path":"mods/memory_repo/info/loenwind/autoconfig/AutoConfig/1.12.2-1.0.2/AutoConfig-1.12.2-1.0.2.jar.meta",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/mods/memory_repo/info/loenwind/autoconfig/AutoConfig/1.12.2-1.0.2/AutoConfig-1.12.2-1.0.2.jar.meta"
+                               "url":"https://www.dropbox.com/s/3ct8mxu1rlh3b12/AutoSave-1.12.2-1.0.11.jar.meta?dl=1"
                        }
                },
                {
@@ -5571,7 +5551,7 @@
                        "artifact":{
                                "size":"90467",
                                "path":"mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar"
+                               "url":"https://www.dropbox.com/s/gh1eew9gzrg4ofv/AutoSave-1.12.2-1.0.11.jar?dl=1"
                        }
                },
                {
@@ -5581,7 +5561,7 @@
                        "artifact":{
                                "size":"8002",
                                "path":"mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar.meta",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar.meta"
+                               "url":"https://www.dropbox.com/s/3ct8mxu1rlh3b12/AutoSave-1.12.2-1.0.11.jar.meta?dl=1"
                        }
                },
                {
@@ -5591,7 +5571,7 @@
                        "artifact":{
                                "size":"19413",
                                "path":"mods/memory_repo/org/orecruncher/DynamicSurroundings-core/1.12.2-3.5.4.3/DynamicSurroundings-core-1.12.2-3.5.4.3.jar",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/mods/memory_repo/org/orecruncher/DynamicSurroundings-core/1.12.2-3.5.4.3/DynamicSurroundings-core-1.12.2-3.5.4.3.jar"
+                               "url":"https://www.dropbox.com/s/zrxbqhnuhgdlr2l/DynamicSurroundings-core-1.12.2-3.5.5.0.jar?dl=1"
                        }
                },
                {
@@ -5601,7 +5581,7 @@
                        "artifact":{
                                "size":"1666",
                                "path":"mods/memory_repo/org/orecruncher/DynamicSurroundings-core/1.12.2-3.5.4.3/DynamicSurroundings-core-1.12.2-3.5.4.3.jar.meta",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/mods/memory_repo/org/orecruncher/DynamicSurroundings-core/1.12.2-3.5.4.3/DynamicSurroundings-core-1.12.2-3.5.4.3.jar.meta"
+                               "url":"https://www.dropbox.com/s/erexajc4f1uwbxg/DynamicSurroundings-core-1.12.2-3.5.5.0.jar.meta?dl=1"
                        }
                },
                {
@@ -5611,7 +5591,7 @@
                        "artifact":{
                                "size":"19387",
                                "path":"mods/memory_repo/org/orecruncher/DynamicSurroundings-core/1.12.2-3.5.5.0/DynamicSurroundings-core-1.12.2-3.5.5.0.jar",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/mods/memory_repo/org/orecruncher/DynamicSurroundings-core/1.12.2-3.5.5.0/DynamicSurroundings-core-1.12.2-3.5.5.0.jar"
+                               "url":"https://www.dropbox.com/s/zrxbqhnuhgdlr2l/DynamicSurroundings-core-1.12.2-3.5.5.0.jar?dl=1"
                        }
                },
                {
@@ -5621,7 +5601,7 @@
                        "artifact":{
                                "size":"1666",
                                "path":"mods/memory_repo/org/orecruncher/DynamicSurroundings-core/1.12.2-3.5.5.0/DynamicSurroundings-core-1.12.2-3.5.5.0.jar.meta",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/mods/memory_repo/org/orecruncher/DynamicSurroundings-core/1.12.2-3.5.5.0/DynamicSurroundings-core-1.12.2-3.5.5.0.jar.meta"
+                               "url":"https://www.dropbox.com/s/erexajc4f1uwbxg/DynamicSurroundings-core-1.12.2-3.5.5.0.jar.meta?dl=1"
                        }
                },
                {
@@ -5631,7 +5611,7 @@
                        "artifact":{
                                "size":"37150628",
                                "path":"resourcepacks/PureBDcraft 128x MC112.zip",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/resourcepacks/PureBDcraft 128x MC112.zip"
+                               "url":"https://www.dropbox.com/s/23ay3xjwyi9e9og/PureBDcraft%20128x%20MC112.zip?dl=1"
                        }
                },
                {
@@ -5641,7 +5621,7 @@
                        "artifact":{
                                "size":"150959538",
                                "path":"resourcepacks/PureBDcraft x64 Pinipys Modpack.1.12.2.zip",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/resourcepacks/PureBDcraft x64 Pinipys Modpack.1.12.2.zip"
+                               "url":"https://www.dropbox.com/s/eop3y8q7zhcny2u/PureBDcraft%20x64%20Pinipys%20Modpack.1.12.2.zip?dl=1"
                        }
                },
                {
@@ -5651,7 +5631,7 @@
                        "artifact":{
                                "size":"41980",
                                "path":"resources/assets/fml/textures/gui/pinipy.png",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/resources/assets/fml/textures/gui/pinipy.png"
+                               "url":"https://www.dropbox.com/s/hzya1uz6vj7e8y5/pinipy.png?dl=1"
                        }
                },
                {
@@ -5661,7 +5641,7 @@
                        "artifact":{
                                "size":"2558398",
                                "path":"resources/mainmenu/background.png",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/resources/mainmenu/background.png"
+                               "url":"https://www.dropbox.com/s/49vsdh0orvccrd7/background.png?dl=1"
                        }
                },
                {
@@ -5671,7 +5651,7 @@
                        "artifact":{
                                "size":"10569",
                                "path":"resources/mainmenu/edition.png",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/resources/mainmenu/edition.png"
+                               "url":"https://www.dropbox.com/s/7ixzxf1h1u8uicc/edition.png?dl=1"
                        }
                },
                {
@@ -5681,7 +5661,7 @@
                        "artifact":{
                                "size":"22914",
                                "path":"resources/mainmenu/minecraft.png",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/resources/mainmenu/minecraft.png"
+                               "url":"https://www.dropbox.com/s/y6dnzhfw2ccfkrm/minecraft.png?dl=1"
                        }
                },
                {
@@ -5691,7 +5671,7 @@
                        "artifact":{
                                "size":"1768",
                                "path":"scripts/01_Remove.zs",
-                               "url":"http://cc2web.cyberconnects2.com/games/rcraft/GameFiles/src/scripts/01_Remove.zs"
+                               "url":"https://www.dropbox.com/s/3uiagy540ylm7vg/01_Remove.zs?dl=1"
                        }
                },
        ]
@@ -5699,3 +5679,5 @@
 
     ]
 }
+
+
