@@ -8,7 +8,7 @@
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
     },
-    "rss": "https://westeroscraft.com/articles/index.rss",
+    "rss": "https://www.pinipy.com/blog-feed.xml",
     "servers": [
         {
             "id": "Galacia-1.1.2",
