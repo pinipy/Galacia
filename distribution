@@ -11,7 +11,24 @@
     "rss": "https://westeroscraft.com/articles/index.rss",
     "servers": [
         {
-            "id":"net.minecraftforge:forge:1.12.2-14.23.5.2768",
+            "id": "Galacia-1.1.2",
+            "name": "Galacia: Pinipy's Server",
+            "description": "Pinipy's community server! Become a Sub to join.",
+            "icon": "https://i.imgur.com/yryU8UU.png",
+            "version": "1.1.2",
+            "address": "minecraft.pinipy.com",
+            "minecraftVersion": "1.12.2",
+            "discord": {
+                "shortId": "Production",
+                "largeImageText": "WesterosCraft Production Server",
+                "largeImageKey": "server-prod"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                   {
+       "id":"net.minecraftforge:forge:1.12.2-14.23.5.2768",
        "name":"Minecraft Forge",
        "type":"ForgeHosted",
        "artifact":{
@@ -5680,5 +5697,6 @@
                },
        ]
 }
+
     ]
 }
