@@ -1,5 +1,17 @@
 {
-       "id":"net.minecraftforge:forge:1.12.2-14.23.5.2768",
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "385581240906022916",
+        "smallImageText": "WesterosCraft",
+        "smallImageKey": "seal-circle"
+    },
+    "java": {
+        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+    },
+    "rss": "https://westeroscraft.com/articles/index.rss",
+    "servers": [
+        {
+            "id":"net.minecraftforge:forge:1.12.2-14.23.5.2768",
        "name":"Minecraft Forge",
        "type":"ForgeHosted",
        "artifact":{
@@ -5667,4 +5679,6 @@
                        }
                },
        ]
+}
+    ]
 }
