@@ -42,7 +42,7 @@
                             "type": "Library",
                             "artifact": {
                                 "size":32999,
-								"url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/launchwrapper-1.12.jar"
+			       "url": "https://api.mybizup.fr/mazecity/mazelauncher/libraries/launchwrapper-1.12.jar"
                             }
                         },
                         {
