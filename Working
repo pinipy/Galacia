@@ -1,8 +1,8 @@
 {
     "version": "1.0.0",
     "discord": {
-        "clientId": "385581240906022916",
-        "smallImageText": "WesterosCraft",
+        "clientId": "657499577913704448",
+        "smallImageText": "Galacia",
         "smallImageKey": "seal-circle"
     },
     "java": {
@@ -20,7 +20,7 @@
             "minecraftVersion": "1.12.2",
             "discord": {
                 "shortId": "Production",
-                "largeImageText": "WesterosCraft Production Server",
+                "largeImageText": "Galacia",
                 "largeImageKey": "server-prod"
             },
             "mainServer": true,
