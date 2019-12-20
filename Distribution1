@@ -29,7 +29,7 @@
                 {
                     "id":"rcraft.files:00000001:2019-12-20",
                        "name":"forge-1",
-                       "type":"file",
+                       "type":"ForgeHosted",
                        "artifact":{
                                "size":"5035170",
                                "path":"forge-1.12.2-14.23.5.2838-universal.jar",
