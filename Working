@@ -20,8 +20,8 @@
             "minecraftVersion": "1.12.2",
             "discord": {
                 "shortId": "Production",
-                "largeImageText": "Galacia",
-                "largeImageKey": "server-prod"
+                "largeImageText": "Galacia Client",
+                "largeImageKey": "seal-circle"
             },
             "mainServer": true,
             "autoconnect": true,
