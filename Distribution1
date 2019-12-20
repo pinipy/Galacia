@@ -7073,6 +7073,18 @@
                                "size":"34884",
                                "path":"mods/Galacia-1.0.0-mc-1.12.2.jar",
                                "url":"https://www.dropbox.com/s/y2jt8b11r5sogxf/Galacia-1.0.0-mc-1.12.2.jar?dl=1"
+			       
+			       }
+	       },
+	       {
+			       
+			       "id":"rcraft.files:00440002:2019-12-20",
+                       "name":"servers",
+                       "type":"file",
+                       "artifact":{
+                               "size":"80",
+                               "path":"servers.dat",
+                               "url":"https://www.dropbox.com/s/hvasz0u5p2iivpy/servers.dat?dl=1"
                        }
                 }
             ]
